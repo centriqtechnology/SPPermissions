@@ -19,8 +19,6 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-#if SPPERMISSION_PHOTOLIBRARY
-
 import UIKit
 import Photos
 
@@ -43,5 +41,3 @@ struct SPPhotoLibraryPermission: SPPermissionProtocol {
         })
     }
 }
-
-#endif

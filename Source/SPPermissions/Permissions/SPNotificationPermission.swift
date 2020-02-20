@@ -19,8 +19,6 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-#if SPPERMISSION_NOTIFICATION
-
 import UIKit
 import UserNotifications
 
@@ -71,5 +69,3 @@ struct SPNotificationPermission: SPPermissionProtocol {
         UIApplication.shared.registerForRemoteNotifications()
     }
 }
-
-#endif

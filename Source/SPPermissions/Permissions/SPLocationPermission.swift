@@ -19,8 +19,6 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-#if SPPERMISSION_LOCATION
-
 import UIKit
 import MapKit
 
@@ -89,4 +87,3 @@ struct SPLocationPermission: SPPermissionProtocol {
         }
     }
 }
-#endif
